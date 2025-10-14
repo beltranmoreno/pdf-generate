@@ -1,0 +1,12 @@
+{
+  "logoPath": "file:///Users/beltran/Documents/dev/pdf-generate/alai_logo.png",
+  "date": "01/06/2025",
+  "language": "en",
+  "patientName": "NICOLAS MORENO DE ALBORAN",
+  "patientDOB": "14/07/1997",
+  "body": "After a detailed clinical evaluation and imaging studies, it has been determined that Mr. Nicolás Moreno de Alborán's injury is more complex than initially expected. The findings indicate a tear in the semimembranosus muscle accompanied by damage to the tendon insertion site.\n\nGiven the extent of the injury, the patient will require a period of rest for several weeks, followed by a structured rehabilitation program including:\n\n- Radiofrequency therapy utilizing the Indiba device\n- Low-impact exercise on the AlterG treadmill\n- Soft tissue therapy\n- Isometric strengthening exercises\n- Progressive eccentric and concentric muscle training\n\nUpon completion of this rehabilitation protocol and full functional recovery, Mr. Moreno de Alborán may gradually return to tennis activity under medical supervision.\n\nBest regards,",
+  "bodyFormat": "markdown",
+  "signatureImagePath": "file:///Users/beltran/Documents/dev/pdf-generate/ma_sign.png",
+  "senderName": "Dr MIKEL ARAMBERRI, M.D., Ph.D.",
+  "senderTitle": "Orthopedic Surgeon Sports Medicine"
+}

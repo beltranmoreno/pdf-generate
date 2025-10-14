@@ -1,0 +1,12 @@
+{
+  "logoPath": "file:///Users/beltran/Documents/dev/pdf-generate/alai_logo.png",
+  "date": "01/06/2025",
+  "language": "es",
+  "patientName": "NICOLAS MORENO DE ALBORAN",
+  "patientDOB": "14/07/1997",
+  "body": "Tras una evaluación clínica detallada y estudios de imagen, se ha determinado que la lesión del Sr. Nicolás Moreno de Alborán es más compleja de lo esperado inicialmente. Los hallazgos indican un desgarro en el músculo semimembranoso acompañado de daño en el sitio de inserción del tendón.\n\nDada la extensión de la lesión, el paciente requerirá un período de reposo durante varias semanas, seguido de un programa de rehabilitación estructurado que incluye:\n\n- Terapia de radiofrecuencia utilizando el dispositivo Indiba\n- Ejercicio de bajo impacto en la cinta AlterG\n- Terapia de tejidos blandos\n- Ejercicios de fortalecimiento isométrico\n- Entrenamiento muscular excéntrico y concéntrico progresivo\n\nAl completar este protocolo de rehabilitación y lograr una recuperación funcional completa, el Sr. Moreno de Alborán podrá regresar gradualmente a la actividad tenística bajo supervisión médica.\n\nAtentamente,",
+  "bodyFormat": "markdown",
+  "signatureImagePath": "file:///Users/beltran/Documents/dev/pdf-generate/ma_sign.png",
+  "senderName": "Dr MIKEL ARAMBERRI, M.D., Ph.D.",
+  "senderTitle": "Orthopedic Surgeon Sports Medicine"
+}

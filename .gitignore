@@ -24,3 +24,7 @@ npm-debug.log*
 # Temporary files
 tmp/
 temp/
+
+# Example letter
+example-letter.json
+template.html
