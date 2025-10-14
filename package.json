@@ -1,0 +1,19 @@
+{
+  "name": "pdf-letter-generator",
+  "version": "1.0.0",
+  "description": "A professional PDF letter generator using Node.js, Puppeteer, and Handlebars",
+  "main": "generate-pdf.js",
+  "scripts": {
+    "generate": "node generate-pdf.js",
+    "example": "node generate-pdf.js example-letter.json example-output.pdf"
+  },
+  "keywords": ["pdf", "letter", "generator", "puppeteer", "handlebars", "template"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "marked": "^16.4.0",
+    "puppeteer": "^24.24.1"
+  }
+}

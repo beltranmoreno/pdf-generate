@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @page {
+            size: letter;
+            margin: 0.75in 1in;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 12pt;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .letterhead {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #333;
+        }
+
+        .letterhead h1 {
+            font-size: 18pt;
+            margin-bottom: 5px;
+            color: #000;
+        }
+
+        .letterhead p {
+            font-size: 10pt;
+            color: #666;
+            margin: 2px 0;
+        }
+
+        .date {
+            margin-bottom: 30px;
+            text-align: right;
+        }
+
+        .recipient {
+            margin-bottom: 30px;
+        }
+
+        .recipient p {
+            margin: 2px 0;
+        }
+
+        .salutation {
+            margin-bottom: 20px;
+        }
+
+        .body {
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+
+        .body p {
+            margin-bottom: 15px;
+        }
+
+        .body ul, .body ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        .body li {
+            margin-bottom: 5px;
+        }
+
+        .body strong {
+            font-weight: bold;
+        }
+
+        .body em {
+            font-style: italic;
+        }
+
+        .closing {
+            margin-bottom: 60px;
+        }
+
+        .signature {
+            margin-top: 10px;
+        }
+
+        .signature-name {
+            font-weight: bold;
+        }
+
+        .signature-title {
+            font-style: italic;
+            color: #666;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 9pt;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <!-- Letterhead -->
+    <div class="letterhead">
+        <h1>{{companyName}}</h1>
+        <p>{{companyAddress}}</p>
+        <p>{{companyCity}}, {{companyState}} {{companyZip}}</p>
+        <p>{{companyPhone}} | {{companyEmail}}</p>
+    </div>
+
+    <!-- Date -->
+    <div class="date">
+        {{date}}
+    </div>
+
+    <!-- Recipient -->
+    <div class="recipient">
+        <p>{{recipientName}}</p>
+        <p>{{recipientTitle}}</p>
+        <p>{{recipientCompany}}</p>
+        <p>{{recipientAddress}}</p>
+        <p>{{recipientCity}}, {{recipientState}} {{recipientZip}}</p>
+    </div>
+
+    <!-- Salutation -->
+    <div class="salutation">
+        {{salutation}}
+    </div>
+
+    <!-- Body -->
+    <div class="body">
+        {{{body}}}
+    </div>
+
+    <!-- Closing -->
+    <div class="closing">
+        {{closing}}
+    </div>
+
+    <!-- Signature -->
+    <div class="signature">
+        <div class="signature-name">{{senderName}}</div>
+        <div class="signature-title">{{senderTitle}}</div>
+    </div>
+
+    <!-- Footer (optional) -->
+    {{#if footerText}}
+    <div class="footer">
+        {{footerText}}
+    </div>
+    {{/if}}
+</body>
+</html>
