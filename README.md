@@ -1,6 +1,27 @@
 # PDF Letter Generator
 
-A professional PDF letter generator built with Node.js, Puppeteer, and Handlebars. Generate beautifully formatted one-page letters from JSON data with support for Markdown, HTML, and plain text formatting.
+A professional PDF medical report generator with both a **web interface** and **command-line tool**. Built with Node.js, Puppeteer, and Handlebars.
+
+## 🌐 Web Interface (Recommended)
+
+The easiest way to generate PDFs - just fill out a form!
+
+### Quick Start:
+```bash
+npm install
+npm start
+```
+
+Visit: **http://localhost:3000**
+
+### Deploy Online:
+See [DEPLOYMENT.md](DEPLOYMENT.md) for one-click deployment to Railway (free!)
+
+---
+
+## 🖥️ Command Line Tool
+
+Generate PDFs from JSON files for automation and batch processing.
 
 ## Features
 

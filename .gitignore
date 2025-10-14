@@ -2,8 +2,8 @@
 node_modules/
 package-lock.json
 
-# Generated PDFs (keep examples)
-output.pdf
+# Generated PDFs
+temp/
 *.pdf
 !example-output.pdf
 
@@ -21,10 +21,9 @@ Thumbs.db
 *.log
 npm-debug.log*
 
+# Environment
+.env
+.env.local
+
 # Temporary files
 tmp/
-temp/
-
-# Example letter
-example-letter.json
-template.html
